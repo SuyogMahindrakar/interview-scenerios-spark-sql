@@ -4,41 +4,13 @@ This repository focuses on providing interview scenario questions that I have en
 
 **Scenario 1
 **Input **
-Requirement already satisfied: pyspark in /usr/local/lib/python3.11/dist-packages (3.5.5)
-Requirement already satisfied: py4j==0.10.9.7 in /usr/local/lib/python3.11/dist-packages (from pyspark) (0.10.9.7)
-+-------+-------------------+
-|food_id|          food_item|
-+-------+-------------------+
-|      1|        Veg Biryani|
-|      2|     Veg Fried Rice|
-|      3|    Kaju Fried Rice|
-|      4|    Chicken Biryani|
-|      5|Chicken Dum Biryani|
-|      6|     Prawns Biryani|
-|      7|      Fish Birayani|
-+-------+-------------------+
 
-+-------+------+
-|food_id|rating|
-+-------+------+
-|      1|     5|
-|      2|     3|
-|      3|     4|
-|      4|     4|
-|      5|     5|
-|      6|     4|
-|      7|     4|
-+-------+------+
+![image](https://github.com/user-attachments/assets/9ad573e0-e99d-4807-87cc-f1bf1a5a54b7)
+
 
 Output
-+-------+-------------------+------+------------+
-|food_id|          food_item|rating|rating_stars|
-+-------+-------------------+------+------------+
-|      1|        Veg Biryani|     5|       *****|
-|      2|     Veg Fried Rice|     3|         ***|
-|      3|    Kaju Fried Rice|     4|        ****|
-|      4|    Chicken Biryani|     4|        ****|
-|      5|Chicken Dum Biryani|     5|       *****|
-|      6|     Prawns Biryani|     4|        ****|
-|      7|      Fish Birayani|     4|        ****|
-+-------+-------------------+------+------------+
+![image](https://github.com/user-attachments/assets/28cc29f4-8e8e-4ff5-9c0e-66b755a414a6)
+
+
+Code location - https://github.com/SuyogMahindrakar/interview-scenerios-spark-sql/blob/main/Scenario%201%20-%20Rating.py
+
