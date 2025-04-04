@@ -5,7 +5,7 @@ from pyspark.sql.functions import expr
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Colab_PySpark").getOrCreate()
-
+ 
 data = [
     (1, "Alice", "IT", 5000, 2),
     (2, "Bob", "HR", 6000, 5),
